@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parent1{
+    width: 800px;
+    height: 500px;
+    background-color: skyblue;
+}
+#boxparent{
+    width: 100%;
+    height: 200px;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
+}
+#box1{
+    width: 400px;
+    height:50px ;
+    background-color: yellow;
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#box2{
+    width: 400px;
+    height:50px ;
+    background-color: lightgreen;
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#box3{
+    width: 400px;
+    height:50px ;
+    background-color: skyblue;
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#body{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#chhotabox{
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#class{
+    width: 700px;
+    height: 400px;
+    background-color: lightpink;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font: 400;
+}
+#container{
+    width: 600px;
+    height: 300px;
+    background-color: darkgray;
+    
+}
+#child1{
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#child2{
+    width: 100%;
+    height: 150px;
+    background-color: skyblue;
+    display: flex;
+     align-items: center;
+    
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+#left{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#right{
+  width: 250px;
+    height: 50px;
+    background-color: white; 
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+     
+}

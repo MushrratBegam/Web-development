@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color: #081B29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    
+}
+.child1 h1 a{
+    text-decoration: none;
+    color: #E9ECED;
+    font-size: 30px;
+}
+.child2 ul{
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    
+}
+.child2 li a {
+    text-decoration: none;
+    color: #E9ECED;
+    font-size: 20px;
+    font-weight: 600;
+   
+
+}
+.child2 ul li{
+    list-style: none;
+}

@@ -1,0 +1,18 @@
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  animation: move-rotate 4s linear infinite;
+}
+
+@keyframes move-rotate {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(calc(100vw - 50px)) rotate(180deg);
+  }
+  100% {
+    transform: translateX(0) rotate(360deg);
+  }
+}

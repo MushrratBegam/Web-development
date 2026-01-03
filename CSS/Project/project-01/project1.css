@@ -1,0 +1,28 @@
+h1{
+    color: brown;
+    background-color: blue;
+}
+
+div{
+    
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box1{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+}
+#box1 button{
+    background-color: blue;
+    color: white;
+}
+#regis input{
+    border: 2px solid red;
+    background-color: aqua;
+    
+}

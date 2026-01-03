@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 800px;
+    height: 500px;
+    background-color: aqua;
+}
+.contentarea1{
+    width: 100%;
+    height: 200px;
+    background-color: chocolate;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.parent2{
+    width: 100%;
+    height: 200px;
+    background-color: azure;
+    display: flex;
+}
+.contentarea2{
+  width: 400px;
+  height: 100%;
+  background-color: skyblue;
+   text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contentarea3{
+    width: 400px;
+    height: 100%;
+    background-color: aquamarine;
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.parent3{
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+}
+.contentarea4{
+    width: 266px;
+    height: 100%;
+    background-color: hotpink;
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contentarea5{
+    width: 266px;
+    height: 100%;
+    background-color: yellow;
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contentarea6{
+    width: 267px;
+    height: 100%;
+    background-color: purple;
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

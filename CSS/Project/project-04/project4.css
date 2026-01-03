@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parent1{
+    width: 800px;
+    height: 500px;
+    border: 2px solid white;
+    background-color: lightcoral;
+}
+#child1{
+    width: 800px;
+    height: 80px;
+    border: 2px solid white;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+}
+#child2{
+    width: 200px;
+    height: 250px;
+    
+    
+    
+    
+
+}
+#parent2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content h3{
+    font-size: xx-large;
+}
+#content p{
+    font-size: xx-large;
+}

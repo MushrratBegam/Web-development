@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#parent{
+    width: 800px;
+    height: 400px;
+    background-color: blue;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#child1{
+width: 380px;
+height: 300px;
+background-color: white;
+color: darkblue;
+}
+#child2{
+    width: 380px;
+    height: 300px;
+    background-color: white;
+}
+
+
+#h3{
+    color: rgb(25, 181, 129);
+}
+#level1{
+    color: blue;
+}
+#h1{
+    color: darkblue;
+}
+#child1 h3 span{
+    color: aqua;
+}
+#child1 h3 span{
+    color: aqua;
+}

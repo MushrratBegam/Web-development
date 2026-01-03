@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#parent1{
+    width: 800px;
+    height: 600px;
+    border: 2px solid yellowgreen;
+    
+}
+#child1{
+    width: 800px;
+    height: 100px;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    
+}
+#parent2{
+    width: 100%;
+    height: 300px;
+    border: 2px solid blueviolet;
+    background-color: aquamarine;
+    display: flex;
+}
+#content{
+    background-color: blue;
+    width: 500px;
+    height: 100%;
+
+}
+#content2{
+    background-color: bisque;
+    width: 300px;
+    height: 100%;
+    
+
+}
+#child3{
+    width: 800px;
+    height: 100px;
+    background-color: chocolate;
+    
+    align-items: center;
+    margin-top: 8px;
+
+}

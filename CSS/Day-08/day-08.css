@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parent1{
+    width: 800px;
+    height: 600px;
+    background-color: blanchedalmond;
+}
+#child1{
+    width: 100%;
+    height: 100px;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#child2{
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#parent2{
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+    display: flex;
+}
+#child3{
+    width: 250px;
+    height: 100%;
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#child4{
+    width: 550px;
+    height: 100%;
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#parent3{
+    width: 100%;
+    height: 100px;
+     background-color: green;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
